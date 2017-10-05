@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     // Generate TypeScript interfaces from C# files in Models and put them into Scripts as one .d.ts file for every .cs file.
-    typescript_cs_poco: {
+    "fluffy-spoon.javascript.csharp-to-typescript-generator.grunt": {
       'Scripts': ['Models/*.cs'],
       options: {
         //options go here
