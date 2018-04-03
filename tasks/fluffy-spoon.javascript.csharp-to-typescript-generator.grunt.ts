@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 
         var csharpCode = grunt.file.read(file);
         var emitter = new Emitter(csharpCode);
-        var typescriptCode = emitter.emitFile(options);
+        var typescriptCode = emitter.emit(options);
 
         // Write the destination file.
         var targetFilePath = f.dest + '/' + targetFileName;
