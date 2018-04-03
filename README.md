@@ -1,6 +1,6 @@
 # Installing
 ```shell
-npm install --save-dev https://github.com/ffMathy/FluffySpoon.JavaScript.CSharpToTypeScriptGenerator.Grunt.git
+npm install --save-dev @fluffy-spoon/javascript.csharp-to-typescript-generator.grunt
 ```
 
 # Use
