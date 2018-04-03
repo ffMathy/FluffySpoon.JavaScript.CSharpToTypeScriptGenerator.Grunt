@@ -1,4 +1,4 @@
-import { FileEmitter, FileEmitOptions } from '@fluffy-spoon/javascript.csharp-to-typescript-generator';
+import { Emitter, EmitOptions } from '@fluffy-spoon/javascript.csharp-to-typescript-generator';
 
 module.exports = function(grunt) {
 
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
         var targetFileName = fileName.replace(".cs", ".d.ts");
 
         var csharpCode = grunt.file.read(file);
-        var emitter = new FileEmitter(csharpCode);
+        var emitter = new Emitter(csharpCode);
         var typescriptCode = emitter.emitFile(options);
 
         // Write the destination file.
