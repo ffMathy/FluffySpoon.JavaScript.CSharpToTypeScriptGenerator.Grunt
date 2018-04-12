@@ -1,5 +1,5 @@
 {
-  "name": "@fluffy-spoon/javascript.csharp-to-typescript-generator.grunt",
+  "name": "@fluffy-spoon/csharp-to-typescript-generator.grunt",
   "version": "1.0.0",
   "description": "Parses C# code as well as possible into JavaScript objects via Grunt.",
   "main": "./tasks/fluffy-spoon.javascript.csharp-to-typescript-generator.grunt",
@@ -23,6 +23,6 @@
     "jasmine": "^2.6.0"
   },
   "dependencies": {
-    "@fluffy-spoon/javascript.csharp-to-typescript-generator": "latest"
+    "@fluffy-spoon/csharp-to-typescript-generator": "latest"
   }
 }
