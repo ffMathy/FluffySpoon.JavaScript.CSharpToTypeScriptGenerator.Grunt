@@ -1,4 +1,4 @@
-import { Emitter, EmitOptions } from '@fluffy-spoon/javascript.csharp-to-typescript-generator';
+import { Emitter, EmitOptions } from '@fluffy-spoon/csharp-to-typescript-generator';
 
 module.exports = function(grunt) {
 
