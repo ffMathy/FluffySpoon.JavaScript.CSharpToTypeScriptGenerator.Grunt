@@ -2,7 +2,7 @@ import { Emitter, EmitOptions } from '@fluffy-spoon/csharp-to-typescript-generat
 
 module.exports = function(grunt) {
 
-  grunt.registerMultiTask('@fluffy-spoon/javascript.csharp-to-typescript-generator.grunt', 'Converts C# code into TypeScript interfaces.', function() {
+  grunt.registerMultiTask('@fluffy-spoon/csharp-to-typescript-generator.grunt', 'Converts C# code into TypeScript interfaces.', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options() || {};
 
