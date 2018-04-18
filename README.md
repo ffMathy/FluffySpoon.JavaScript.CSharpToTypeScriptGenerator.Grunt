@@ -1,6 +1,6 @@
 # Installing
 ```shell
-npm install --save-dev @fluffy-spoon/javascript.csharp-to-typescript-generator.grunt
+npm install --save-dev @fluffy-spoon/csharp-to-typescript-generator.grunt
 ```
 
 # Use
@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     // Generate TypeScript interfaces from C# files in Models and put them into Scripts as one .d.ts file for every .cs file.
-    "@fluffy-spoon/javascript.csharp-to-typescript-generator.grunt": {
+    "@fluffy-spoon/csharp-to-typescript-generator.grunt": {
       'Scripts': ['Models/*.cs'],
       options: {
         //options go here
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
   grunt.loadTasks('tasks');
 
   // By default, lint and run all tests.
-  grunt.registerTask('default', ['@fluffy-spoon/javascript.csharp-to-typescript-generator.grunt']);
+  grunt.registerTask('default', ['@fluffy-spoon/csharp-to-typescript-generator.grunt']);
 
 };
 ```
