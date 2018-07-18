@@ -5,7 +5,8 @@
   "main": "./tasks/fluffy-spoon.javascript.csharp-to-typescript-generator.grunt",
   "typings": "./tasks/fluffy-spoon.javascript.csharp-to-typescript-generator.grunt.d.ts",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
